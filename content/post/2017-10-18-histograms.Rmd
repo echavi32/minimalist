@@ -9,3 +9,25 @@ tags:
   - Histograms
 ---
 
+```{r message=FALSE,warning=FALSE}
+library(sqldf)
+library(Lahman)
+library(devtools)
+library(ggplot2)
+```
+
+```{r message=FALSE,warning=FALSE}
+# extracting the data------------------------------------------
+
+query<-"SELECT weight
+FROM Master"
+
+result<-sqldf(query)
+
+#visualization-------------------------------------------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="blue",fill="white",size=1,bins=100)+
+ggtitle("Baseball Player Wheight Distribution")
+```
+

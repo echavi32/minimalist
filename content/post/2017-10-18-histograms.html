@@ -11,4 +11,20 @@ tags:
 
 
 
+<pre class="r"><code>library(sqldf)
+library(Lahman)
+library(devtools)
+library(ggplot2)</code></pre>
+<pre class="r"><code># extracting the data------------------------------------------
 
+query&lt;-&quot;SELECT weight
+FROM Master&quot;
+
+result&lt;-sqldf(query)
+
+#visualization-------------------------------------------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color=&quot;blue&quot;,fill=&quot;white&quot;,size=1,bins=100)+
+ggtitle(&quot;Baseball Player Wheight Distribution&quot;)</code></pre>
+<p><img src="/post/2017-10-18-histograms_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>

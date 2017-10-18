@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://edwardchavis.netlify.com/post/histograms/</loc>
+    <loc>/post/histograms/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/post/scatter-plots/</loc>
+    <loc>/post/scatter-plots/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/post/time-series/</loc>
+    <loc>/post/time-series/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/</loc>
-    <lastmod>2017-10-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://edwardchavis.netlify.com/tags/histograms/</loc>
+    <loc>/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/post/</loc>
+    <loc>/tags/histograms/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/categories/r/</loc>
+    <loc>/post/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/tags/scatter-plot/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/tags/</loc>
+    <loc>/tags/scatter-plot/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwardchavis.netlify.com/tags/time-series/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2017-10-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/time-series/</loc>
     <lastmod>2017-10-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
