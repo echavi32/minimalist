@@ -1,0 +1,61 @@
+---
+title: Practicing
+author: edward
+date: '2017-11-02'
+slug: practicing
+categories:
+  - R
+tags:
+  - SQL
+---
+
+```{r message=FALSE,warning=FALSE}
+library(sqldf)
+library(Lahman)
+library(devtools)
+library(ggplot2)
+```
+
+```{r}
+#Extracting the Data------------------------------------------------------
+  
+query<-"SELECT SB
+FROM Batting
+WHERE playerID='loftoke01'"
+
+result<-sqldf(query)
+
+#Visualizing the Data------------------------------------------------------
+
+ggplot()+
+  geom_histogram(data=result,aes(x=SB),bins=5
+                 , color="blue",
+                 fill='white')
+```
+
+```{r message=FALSE,warning=FALSE}
+library(sqldf)
+library(Lahman)
+library(devtools)
+library(ggplot2)
+```
+
+```{r}
+#Extracting the Data------------------------------------------------------
+
+query<-"SELECT  sum(SB) AS total_SB,teamID
+FROM Batting
+WHERE playerID='loftoke01'
+GROUP BY teamID
+ORDER BY sum(SB)"
+
+result<-sqldf(query)
+
+#Visualizing the Data------------------------------------------------------
+
+result$teamID<-factor(result$teamID,levels=result$teamID)
+
+ggplot()+
+  geom_bar(data=result,aes(x=teamID, y=total_SB),stat='identity')
+```
+
