@@ -1,0 +1,11 @@
+---
+title: Fun with SQL!
+author: Edward Chavis
+date: '2017-10-19'
+slug: fun-with-sql
+categories:
+  - R
+tags:
+  - SQL
+---
+
