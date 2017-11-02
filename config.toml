@@ -12,7 +12,7 @@ theme = "hugo-minimalist-theme"
 # It allows you to preview the theme within the exampleSite folder
 # with the hugo server command
 
-[params]
+[params] 
     site_author = "Edward Chavis"
     site_description = "Quick R tutorials"
     location = "Mercyhurst University"
